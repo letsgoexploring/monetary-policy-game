@@ -15,4 +15,4 @@ For further assistance, contact John Duffy, UC Irvine, [duffy@uci.edu](mailto:du
 
 ## Instructions and files
 
-For each experiment in our paper, we provide a z-Tree program and instructions for subjects. Find these in the `files` directory.
+For each experiment in our paper, we provide a z-Tree program and instructions for subjects. Find these in the `files` directory of the repository.
