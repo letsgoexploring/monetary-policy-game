@@ -1,0 +1,139 @@
+\documentclass[11pt,fleqn]{article}
+\renewcommand{\baselinestretch}{1.3}
+\usepackage{hyperref,amsmath,amssymb,lscape,graphicx,setspace,indentfirst,bm}
+\bibliographystyle{aer}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Other setup commands
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+\topmargin 0in
+\headheight 0in
+\headsep 0in
+\textheight 9in
+\textwidth 6.5in
+\oddsidemargin 0in
+\evensidemargin 0in
+\headheight 0in
+\headsep 0in
+
+\newcommand{\D}{\displaystyle}
+\newcommand{\E}{\begin{eqnarray*}}
+\newcommand{\F}{\end{eqnarray*}}
+\newcommand{\EE}{\begin{eqnarray}}
+\newcommand{\FF}{\end{eqnarray}}
+\newcommand{\IZ}{\begin{itemize}}
+\newcommand{\ZI}{\end{itemize}}
+\newcommand{\EN}{\begin{enumerate}}
+\newcommand{\NE}{\end{enumerate}}
+\newcommand{\itemc}{\item[$\circ$]}
+\newcommand{\IZdash}{\begin{itemize} \renewcommand{\labelitemi}{-}}
+\newcommand{\tn}{\textnormal}
+
+
+
+
+\onehalfspacing
+
+\begin{document}
+
+\begin{center}
+{\noindent \large \textbf{Sample Homework Questions to Accompany ``A Classroom Experiment in Monetary Policy'' by John Duffy and Brian C. Jenkins} }
+\end{center}
+
+
+\
+
+\noindent \textbf{Model overview:} 
+	\EN
+	\item \textbf{Demand.} The demand for real goods and services is given by the following \emph{IS} equation:
+	\EE
+	y & = & 2 - r + \epsilon, \label{is}
+	\FF
+where $y$ denotes the output gap, $r$ denotes the real interest rate, and $\epsilon$ is an exogenous demand shock with a mean of zero. By assumption, the central bank can set $r$ directly. All interest and inflation rates are expressed in percentages. That is, if the real interest rate is two percent, then $r = 2$.
+
+	\item \textbf{Supply.} The supply of goods and services is determined by the following \emph{aggregate supply} or \emph{Phillips curve} equation:
+	\EE
+	\pi & = & \pi^e + 0.25 y, \label{pc}
+	\FF
+where $\pi$ is the inflation rate and $\pi^e$ is the private sector's expectation of the inflation rate. Note that there are no exogenous shocks to the supply equation.
+
+	\item \textbf{Monetary policy.} The central bank wishes to stabilize the inflation rate around a target value $\pi^T$. The central bank incurs a cost when the inflation rate is different from the target. The cost to the central bank is reflected in the following \emph{loss function}:
+		\EE
+		L(\pi) & = & (\pi - \pi^T)^2 \label{loss}
+		\FF
+	\NE
+
+\newpage
+\noindent \textbf{Answer the following:}
+
+\EN
+\item 
+	\EN
+	\item Suppose that the central bank has an inflation target of $\pi^T = 2.5$. Compute the loss $L$ to the central bank when the actual inflation rate is 0, 1, 2.5, and 3. \emph{You don't have to show your work}.
+	
+	\vspace*{10\baselineskip}
+	
+	\item When $\pi^T = 2.5$, what is the value of $\pi$ that minimizes the central bank's loss function given in equation (3)? \emph{You don't have to show your work}.
+	\NE
+	
+\newpage
+\item 
+	\EN
+	\item Rewrite the aggregate supply equation (2) to express the output gap $y$ as a function of $\pi$ and $\pi^e$. \emph{You don't have to show your work}.
+	
+	
+	\vspace*{20\baselineskip}
+	
+	\item Use your answer to part (a) to eliminate $y$ from the IS equation (1)  and solve for the real interest rate $r$ as a function of $\pi$, $\pi^e$, and $\epsilon$. \emph{You don't have to show your work}.
+
+	
+	\newpage
+	
+	\item Suppose that the public expects that the inflation rate will equal the central bank's target (i.e., $\pi^e = \pi^T$). Use the equation for the real interest rate that you derived in 2(b) to compute the appropriate real interest rate for each combination of $\pi^T$, $\pi^e$, and $\epsilon$.
+	
+	\
+	
+	\
+	
+
+	\begin{tabular}{cccccc} $\bm{\pi^T}$ & $\bm{\pi^e}$ & $\bm{\epsilon}$ & $\bm{r}$\\\hline
+	\rule{2cm}{0cm} & \rule{2cm}{0cm} & \rule{2cm}{0cm} & \rule{2cm}{0cm} \\\\
+	2.5 & 2.5 & 0 \\\\\\
+	2.5 & 2.5 & 0.5 \\\\\\
+	2.5 & 2.5 & 1 \\\\\\
+	2.5 & 2.5 & -0.5 \\\\\\
+	2.5 & 2.5 & -1 \\\\\\
+	\end{tabular}
+	
+	\newpage
+	\item Now, suppose that the public expects that the inflation rate will equal the central bank's target plus 1 percent. (i.e., $\pi^e = \pi^T + 1$). Use the equation for the real interest rate that you derived in 2(b) to compute the appropriate real interest rate for each combination of $\pi^T$, $\pi^e$, and $\epsilon$.
+	
+	\
+	
+	\
+	
+
+	\begin{tabular}{cccccc} $\bm{\pi^T}$ & $\bm{\pi^e}$ & $\bm{\epsilon}$ & $\bm{r}$\\\hline
+	\rule{2cm}{0cm} & \rule{2cm}{0cm} & \rule{2cm}{0cm} & \rule{2cm}{0cm} \\\\
+	2.5 & 3.5 & 0 \\\\\\
+	2.5 & 3.5 & 0.5 \\\\\\
+	2.5 & 3.5 & 1 \\\\\\
+	2.5 & 3.5 & -0.5 \\\\\\
+	2.5 & 3.5 & -1 \\\\\\
+	\end{tabular}
+	
+	
+	\
+	
+	\item Compare your answers to part (d) with your answers to part (c). How does the increase in the expected inflation rate affect the appropriate value of the real interest rate?
+	
+	
+	\NE
+\NE
+
+
+
+\end{document}

@@ -1,7 +1,7 @@
 # A Classroom Experiment in Monetary Policy
 
 
-This repository contains software and instructions for running the experiments in the article *A Classroom Experiment in Monetary Policy* by [John Duffy](https://www.socsci.uci.edu/~duffy/) and [Brian C Jenkins](http://www.briancjenkins.com/).
+This repository contains software and instructions for running the experiments in the article *A Classroom Experiment in Monetary Policy* by [John Duffy](https://www.socsci.uci.edu/~duffy/) and [Brian C Jenkins](http://www.briancjenkins.com/). Also included are sample homework questions to complement the in-class experiment.
 
 
 
@@ -23,3 +23,7 @@ For the experiments in our paper, we provide z-Tree programs for running the exp
 4. Central bank following a Taylor rule + Phillips curve with lagged inflation + normal shocks
 
 Each experiment requires groups of five participants except for the Taylor rule experiment, which requires groups of four since the central bank is automated.
+
+## Sample Homework Questions
+
+A set of sample problems designed to complement the in-class experiment and help the students to better-understand teh underlying theoretical framework.
