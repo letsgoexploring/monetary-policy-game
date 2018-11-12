@@ -24,6 +24,10 @@ For the experiments in our paper, we provide z-Tree programs for running the exp
 
 Each experiment requires groups of five participants except for the Taylor rule experiment, which requires groups of four since the central bank is automated.
 
-## Sample Homework Questions
+## Homework
 
-A set of sample problems designed to complement the in-class experiment and help the students to better-understand teh underlying theoretical framework.
+1. A set of sample problems designed to complement the in-class experiment and help the students to better-understand the underlying theoretical framework.
+2. Example Excel files for computing the rational expectations equilibrium using given demand shocks.
+
+	a. *SampleSpreadsheet_Blank.xlsx:* Example of file to be given to students without formulas.
+	b. *SampleSpreadsheet_Complete.xlsx:* Example of what students are to compute.
