@@ -28,6 +28,5 @@ Each experiment requires groups of five participants except for the Taylor rule 
 
 1. A set of sample problems designed to complement the in-class experiment and help the students to better-understand the underlying theoretical framework.
 2. Example Excel files for computing the rational expectations equilibrium using given demand shocks.
-
-	a. *SampleSpreadsheet_Blank.xlsx:* Example of file to be given to students without formulas.
-	b. *SampleSpreadsheet_Complete.xlsx:* Example of what students are to compute.
+   a. *SampleSpreadsheet_Blank.xlsx:* Example of file to be given to students without formulas.
+   b. *SampleSpreadsheet_Complete.xlsx:* Example of what students are to compute.
